@@ -1,7 +1,21 @@
+.wrapper {
+    width: 80%;
+    padding: 10px;
+    margin: 0 auto;
+    min-height: 10%;
+}
+
+html, body {
+    height: 100%;
+}
+
 .nav-bar {
     display: flex;
     list-style: none;
-    padding: 5px;
+}
+
+.icons{
+    padding: 10px;
 }
 
 .header {
@@ -10,7 +24,7 @@
     align-items: center;
     justify-content: center;
     border: 1px solid grey;
-    height: 70px;
+    height: 60px;
     width: auto;
     align-content: center;
 }
@@ -85,8 +99,8 @@
 
 .flip-card {
     background-color: transparent;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 150px;
     perspective: 1000px;
 }
 
@@ -122,4 +136,14 @@
     color: white;
     transform: rotateY(180deg);
     border-radius: 4px;
+}
+
+.fixed-bottom {
+    background-color: #F3F3F3;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    position:fixed;
+    text-align: center;
+    bottom:0;
+    width:100%;
 }
