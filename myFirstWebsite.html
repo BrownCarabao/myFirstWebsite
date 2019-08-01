@@ -1,86 +1,132 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
+    <link rel="stylesheet" href="./myFIrstWebsite.css">
 
-div { 
-  float: left;
-  margin: 10px;
-}
-
-.waway {
-  border: 1px solid blue;
-  background-color: lightblue;
-  width: 250px;
-  height: 420px;
-  border-radius: 5px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 200px;
-}
-
-.migileto {
-  border: 1px solid blue;
-  background-color: lightblue;
-  background-color: red;
-  align-content: center;
-  border-radius: 5px;
-  justify-content: center;
-  display: flex;
-  width: 250px;
-  height: 420px;
-  min-width: 200px;
-}
-
-.container1 {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  flex-wrap: wrap-reverse;
-}
-
-button .number { 
-  display: none;
-}
-
-button:hover .contact {
-  display: none; 
-}
-
-button:hover .number {
-  display: inline;
-}
-
-.contact-container {
-  display: inline-block;
-  padding-left: 65px;
-}
-
-.neil {
- padding-left :20px;
-}
-
-</style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-  <div class="container1">
-      <div class="waway">
-      	<div>
-        	<div class="neil">
-              <p class="name">Neil Kenneth A. Genotiva</p>
+  <hr>
+  <div class="header">
+    <ul class="nav-bar">
+      <li>
+          <i class="fa fa-home"></i>
+          <span>Home</span>
+      </li>
+      <li>
+          <i class="fa fa-home"></i>
+          <span>Profile</span>
+      </li>
+      <li>
+          <i class="fa fa-home"></i>
+          <span>Galleries</span>
+      </li>
+      <li>
+          <i class="fa fa-home"></i>
+          <span>About Us</span>
+      </li>
+      <li>
+          <i class="fa fa-home"></i>
+          <span>Contact Us</span>
+      </li>
+    </ul>
+  </div>
+  </div>
+  <div class="content-container">
+    <div class="content-1">
+      <div class="form-1">
+          <form>
+            First name: <input class="input" type="text" name="fname"><br>
+            Last name: <input class="input" type="text" name="lname"><br>
+            User name: <input class="input" type="text" name="fname"><br>
+            Password: <input class="input" type="text" name="lname"><br>
+            <div class="button-form">
+              <input id="submit" type="submit" value="Submit">
+              <input id="cancel" type="submit" value="Cancel">
             </div>
-            <div class="contact-container">
-              <button>
-                  <span class="contact">Contact</span>
-                  <span class="number">09985934263</span>
-              </button>
-            </div>
+          </form>
+      </div>
+    </div>
+    <div class="content-1">
+        google map here  
+    </div>
+  </div>
+  <div class="content-container">
+    <div class="text-content">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+    <div class="text-content">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor Eget egestas purus viverra accumsan in nisl nisi scelerisque eu. Elit ut aliquam purus sit amet luctus venenatis lectus. Vitae proin sagit.
+        At lectus urna duis convallis convallis tellus. Hac habitasse platea dictumst quisque. Sed viverra ipsum nunc aliquet bibendum enim. Quis imperdiet massa tincidunt nunc pulvinar sapien. 
+    </div>
+    <div class="text-content">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra massa massa ultricies mi quis hendrerit. Sed adipiscing diam donec adipiscing tristique risus nec feugiat in.
+        Ut diam quam nulla porttitor massa id. Consectetur adipiscing elit duis tristique sollicitudin. Dui accumsan sit amet nulla facilisi morbi. Lacus vestibulum sed arcu non odio euismod lacinia.
+    </div>
+  </div>
+  <div class="content-container">
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <h1>Neil Kenneth A. Genotiva</h1>
+        </div>
+        <div class="flip-card-back">
+          <h1>Handsome</h1> 
+          <p>Friendly</p> 
+          <p>Boy Next Door</p>
         </div>
       </div>
-      <div class="migileto">
-          <span class="migs">Migs Lindo</span>
+    </div>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <h1>Val Vincent Montesclaros</h1>
+          </div>
+          <div class="flip-card-back">
+            <h1>Double Blade</h1> 
+            <p>Nice Guy</p> 
+            <p>Basted</p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <h1>Edward Kevin Louis Borbon</h1>
+          </div>
+          <div class="flip-card-back">
+            <h1>Thomas Osmeña</h1> 
+            <p>Mr. Yoso</p> 
+            <p>Guitar Thief</p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <h1>Claro Antonio Zamesa</h1>
+          </div>
+          <div class="flip-card-back">
+            <h1>Nice Person</h1> 
+            <p>Will give me a laptop</p> 
+            <p>We love Her</p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <h1>John Miguel Lindo</h1>
+          </div>
+          <div class="flip-card-back">
+            <h1>Ate my Butter Coconut</h1> 
+            <p>Ngulbo lover</p> 
+            <p>Nice Guy</p>
+          </div>
+        </div>
       </div>
   </div>
 </body>
