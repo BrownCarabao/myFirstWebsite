@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="./myFIrstWebsite.css">
+  <link rel="stylesheet" href="./myFIrstWebsite.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
 </head>
 <body>
   <div class="wrapper">
     <div class="header">
       <ul class="nav-bar">
         <li class="icons">
-            <a href=""><i class="fa fa-home"></i>
+            <a href="" target="blank"><i class="fa fa-home"></i>
             <span>Home</span></a>
         </li>
         <li class="icons">
@@ -35,19 +35,36 @@
     <div class="content-container">
       <div class="content-1">
         <div class="form-1">
-            <form>
-              First name: <input class="input" type="text" name="fname"><br>
-              Last name: <input class="input" type="text" name="lname"><br>
-              User name: <input class="input" type="text" name="fname"><br>
-              Password: <input class="input" type="text" name="lname"><br>
-              <div class="button-form">
-                <input id="submit" type="submit" value="Submit">
-                <input id="cancel" type="submit" value="Cancel">
+          <form>
+            <div class="form-group">
+              <label>Email address</label>
+              <div>
+                <input class="input-field" placeholder="Enter email">
               </div>
-            </form>
+            </div>
+            <div class="form-group">
+                <label>User name</label>
+                <div>
+                  <input class="input-field" placeholder="User name">
+                </div>
+              </div>
+            <div class="form-group">
+              <label>Password</label>
+              <div>
+                <input class="input-field" placeholder="Password">
+              </div>
+            </div>
+            <div>
+              <a href="">Forgot Password?</a>
+            </div>
+              <div class="submit-btn">
+                <button id="submit-btn" type="submit" >Submit</button>
+                <button id="cancel-btn" type="submit" >Cancel</button>
+              </div>
+          </form>
         </div>
       </div>
-      <div class="content-1">
+      <div class="content-1 map">
           <div class="mapouter">
             <div class="gmap_canvas">
               <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=university%20of%20san%20francisco&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
@@ -103,7 +120,7 @@
               <h1>Edward Kevin Louis Borbon</h1>
             </div>
             <div class="flip-card-back">
-              <h1>Thomas Osmeña</h1> 
+              <h1>Tomas</h1> 
               <p>Mr. Yoso</p> 
               <p>Guitar Thief</p>
             </div>
@@ -124,7 +141,7 @@
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <h1>John Miguel Lindo</h1>
+              <h1>Jon Miguel Lindo</h1>
             </div>
             <div class="flip-card-back">
               <h1>Ate my Butter Coconut</h1> 
